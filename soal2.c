@@ -1,3 +1,6 @@
+//Rafa Satria Pratama 13224074
+//Soal 2 Modul 3 filling jug problem
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
@@ -87,6 +90,11 @@ int main(){
     int g1, g2, target;
     scanf("%d %d %d", &g1, &g2, &target);
 
+    if (g1 == target || g2 == target){
+        printf("1");
+        return 0;
+    }
+    
     int result = check(g1, g2, target);
 
     printf("%d", result);
