@@ -7,7 +7,7 @@ int check(int g1, int g2, int target){
 
     int q[10000][3], front = 0, rear = 0;
 
-    bool visited[g1++][g2++];
+    bool visited[g1+1][g2+1];
 
     for (int i = 0; i <= g1; i++){
         for (int j =0 ; j <= g2; j++){
