@@ -87,8 +87,6 @@ int main(){
     int g1, g2, target;
     scanf("%d %d %d", &g1, &g2, &target);
 
-    if (g1 == target || g2 == target) return 1;
-
     int result = check(g1, g2, target);
 
     printf("%d", result);
